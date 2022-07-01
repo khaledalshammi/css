@@ -1,0 +1,31 @@
+/*
+  Grid
+  Parent
+  - display: grid | inline-grid
+  - grid-template-columns: [Number Of Columns In] => [Px, %, Auto, Repeat]
+  - fr take remaing width but if we do it 2fr 1fr and we have 300px 
+  2fr will take 200 1fr will take 100
+  auto auto 1fr 1f with 800px: each one will not take 200px because
+  auto will take the munimum width to stay a live
+*/
+
+* {
+    box-sizing: border-box;
+  }
+  .parent {
+    margin: 20px auto;
+    width: 800px;
+    height: 500px;
+    background-color: #ddd;
+    display: grid;
+    /* grid-template-columns: 100px 100px 200px 200px; */
+    grid-template-columns: repeat(2, auto) repeat(2, 1fr);
+  }
+  .parent div {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }

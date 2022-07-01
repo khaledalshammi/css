@@ -1,0 +1,19 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;/*margin padding border include the percentage of width */
+  }
+  .one {
+    background-color: #EEE;
+    width: 200px;
+    height: 100px;
+    transition-duration: 1s;/*it will take*/
+    transition-delay: 0.2s;/*wait then start*/
+    transition-property: width;/*who will work*/
+    transition-timing-function: ease-in-out;/*type of speed and how to go*/
+    transition: all 2s 0.5s linear; /*prop dur del fun*/
+  }
+  .one:hover {
+    width: 280px;
+    height: 120px;
+  }

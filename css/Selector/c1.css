@@ -1,0 +1,21 @@
+/*
+  CSS Selectors
+  - *: select all elements
+  - Element => [p, div, h2]
+  - Element OtherElement => div p
+  - .class-name
+  - #id-name
+  - .parent .child  
+  - .class-one.class-two (elements haave two classes)
+  - .class-name div, .class-name p: program two class 
+  - Element.class-name => p.class-name: p has that class name
+  - .parent > .child => Direct Child: it will program the child direct, it will not program any thing between that just child
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }

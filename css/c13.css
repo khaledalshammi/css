@@ -1,0 +1,21 @@
+/*
+  CSS Global Values
+  - inherit: from parent
+  - initial: Default
+  - unset: If Inherit => inherit, If Not => initial
+  - all
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  div {
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #eee;
+    padding: 20px;
+    margin: 5px;
+    border: 2px solid black;
+  }

@@ -1,0 +1,21 @@
+/*border-outline*/
+/*
+in-line: 
+    doesn't respect width high,
+    margin padding from right left only just color extends from up down
+------------------------------------------------------------------------
+block: 
+    take full width if no width, Add line break
+------------------------------------------------------------------------
+inline-block: 
+    inline but work as block respect every thing like block
+*/
+div{
+    border-width: 5px;
+    border-color: aqua;
+    border-style: solid dashed;
+    /*border: 10px solid red;*/
+    /*border-radius: 15px;*/
+    outline: 10px blue solid;
+}
+/*outline: doesn't take width, like Border*/

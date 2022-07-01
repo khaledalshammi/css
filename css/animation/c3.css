@@ -1,0 +1,51 @@
+/*
+Direction
+Delay
+Fill-Mode
+Play-State
+Short hand
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: #e8e3e3;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    animation-name: coloring;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-direction: reverse;/*alternative will move behind infront*//*alternative-reverse*/
+    animation-delay: -2s;/*it will start from 3 till 5*/
+    animation-fill-mode: both;/*forwards will take the last thing like black*/
+    /*backwords will take the first animation when finish every thing (red) */
+    /* both depens on direction */
+    animation-play-state:running;/*run work, paused*/
+    /* name duration timing-function delay count direction */
+    animation: coloring 3s linear 2s infinite reverse;
+  }
+  div:hover {
+    animation-play-state: paused;
+  }
+  @keyframes coloring {
+    0% {
+      background-color: red;
+    }
+    50% {
+      background-color: blue;
+    }
+    100% {
+      background-color: black;
+    }
+  }

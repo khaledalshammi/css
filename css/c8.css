@@ -1,0 +1,30 @@
+body{
+    height: 20000px;
+}
+div {
+    color: aliceblue;
+    width: 100px;
+    padding: 10px;
+}
+.one {
+    background-color: red;
+    /*position: relative; top: 10px; *//*Its movement depends on values, depends on its self*/
+    /*position: absolute; top: 500px; /*it will be out of page like delete so you will move it as you want*/
+    position: fixed; right: 0;bottom: 0;
+}
+.two {
+    background-color: green;
+    position: absolute;
+    top: 10px;
+}
+.par {
+    position: relative;
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+}
+.st{
+    position: sticky;/*stick when top reach 0*/
+    color: black;
+    top: 0;
+}

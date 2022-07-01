@@ -1,0 +1,61 @@
+div{
+    background-color: aqua;
+}
+div div{
+    background-color: antiquewhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 25%;
+    float: left;
+    opacity: 0.9;/*الشفافية للمكان كلو*/
+}
+.clear{
+    clear: both;
+}
+button{
+    color: aqua;
+    width: 100px;
+    background-color: black;
+}
+button:hover{
+    color: rgb(0, 0, 0);
+    width: 100px;
+    background-color: rgb(147, 230, 255);
+    padding: 50px;
+}
+.kk:checked{
+    display: none;
+}
+.kk:checked + label{
+    color: red;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+}
+a:visited {
+    color: rgb(18, 0, 100);
+}
+p{
+    background-color: #eee;
+}
+:empty {
+    border: 5px solid rgb(106, 0, 116);
+}
+.in {
+    border: black solid 6px;
+}
+.in:focus {
+    border: rgb(207, 204, 15) solid 6px;
+    background-color: blueviolet;
+    padding: 1px;
+    outline: none;
+}
+.sel::selection{
+    background-color: black;
+    color: yellow;
+}

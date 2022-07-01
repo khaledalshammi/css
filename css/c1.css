@@ -1,0 +1,22 @@
+/*background image repeat position size none*/
+div{
+    background-color: rgb(18, 196, 142);
+    background-color: rgb(77, 20, 20);
+    background-color: #ac5454;
+    color: #fcfcfc;
+    background-image: url(../a.png);
+    background-repeat: repeat; /*repeat image*/
+    background-repeat: repeat-x; /*repeat it toward right*/
+    background-repeat: repeat-y; /*repeat it toward down*/
+    background-repeat: no-repeat;/*don't repeat image*/
+    /*background-attachment: scroll;*//*background will change, as if image finished we will see the white color*/
+    /*background-attachment: fixed;*//*background will not change it will be as it made, as color and image will stay with us*/
+    /*background-position: left top;*//*image will go left top*/
+    /*background-position: 50% 50%;*//*x y*/
+    /*background-size: cover;*//*image will cover background*/
+    /*background-size: contain;*//*image will cover background, but it dosn't cut(responsive)*/
+    background-size: 10% 20%;/*image size by percentage*/
+    /*display: none;*//*hide div*/
+    /*visibility: hidden;*//*it takes place*/
+    font-weight: 300;
+}

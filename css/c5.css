@@ -1,0 +1,63 @@
+/*
+width height overflow textshadow text-indent text-align 
+direction text-decoration text-transform letter-spacing 
+vertical-align line-height word-spacing white-space
+text-overflow
+*/
+.a{
+    background-color: rgb(0, 0, 0);
+    /* display: inline-block; */ /*there is another solution*/
+    width: fit-content;
+    color: white;
+    /* width: 400px; */
+    /* min-width: 300px;it can extends */
+    /* max-width: 400px; */
+    /* height: 100px; */
+    /* min-height: 50px; */
+    /* max-height: 150px; */
+}
+.overflow{
+    width: 140px;
+    height: 140px;
+    background-color: rgb(201, 201, 201);
+    margin: 20px auto;
+    border-radius: 8px;
+    color: black;
+    /*overflow: hidden;*//*hide the extra text*/
+    /*overflow: scroll;*//*scroll down to see remaining*/
+    overflow: auto;/*if there'is extra it will make it scroll automatclly*/
+    /* overflow-y: hidden; */
+    /* overflow-x: hidden; */
+    /* x y الضباب color */
+    text-shadow: 1px 1px 1px red;
+
+    /* X Y الضباب spread color inset */
+    box-shadow: 2px 3px 2px 3px gray inset;
+}
+.all{
+    background-color: rgb(196, 196, 196);
+    text-align: center;
+    color: black;
+    direction: ltr;/* text left to right */
+    text-decoration: line-through;/*under over line*/
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    text-indent: 10px;/*empty space*/
+
+}
+.img{
+    vertical-align: middle;/*the position of text based on image*/
+}
+a{
+    text-decoration: none;
+}
+.lor{
+    background-color: bisque;
+    width: 200px;
+    line-height: 2;/*hight space*/
+    word-spacing: 1px;/*space between words*/
+    white-space: nowrap;/*text will not go down it will complete */
+    /*white-space: break-word;/*break word to down to prevent overflow*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,31 @@
+/* 
+- grid-template-rows: [Number Of Rows In] => [Px, %, Auto, Fraction, Repeat, Mix]
+- gap: [Row Gap] [Column Gap]
+grid-template-rows: if hight 500 and we define some one 100 remaing rows
+take remaing hight equaly
+*/
+
+* {
+    box-sizing: border-box;
+  }
+  .parent {
+    margin: 20px auto;
+    width: 800px;
+    height: 500px;
+    background-color: #ddd;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /*grid-template-rows: 1fr 1fr 1fr*/
+    grid-template-rows: repeat(3, 1fr);
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    gap: 10px 10px;
+  }
+  .parent div {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }

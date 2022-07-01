@@ -1,0 +1,20 @@
+/* X rotate to up down */
+/* Y rotate to left right */
+/* تلف تدور */
+div {
+    margin: 200px auto;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255 0 0 / 39%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    transform: rotateX(50deg);
+    transform: rotateY(50deg);
+    transform: rotateZ(50deg);
+    /* X Y Z */
+    transform: rotate3d(0, 1, 1, 65deg);
+  }

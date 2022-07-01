@@ -1,0 +1,30 @@
+/*
+- justify-content: 
+flex-end flex-first center space-between space-around space-evenly
+- align-content:
+flex-end flex-first center space-between space-around space-evenly
+*/
+
+* {
+box-sizing: border-box;
+}
+.parent {
+margin: 20px auto;
+width: 800px;
+height: 500px;
+background-color: #ddd;
+display: grid;
+grid-template-columns: repeat(4, auto);
+grid-template-rows: repeat(3, auto);
+gap: 10px 10px;
+justify-content: space-between;
+align-content: space-between;/*بالطول*/
+}
+.parent div {
+background-color: red;
+color: white;
+padding: 20px;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+}

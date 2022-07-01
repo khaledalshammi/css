@@ -1,0 +1,46 @@
+/*
+ justify-content: flex-start => Default Value تعديل بالعرض
+ flex-start: start from left and end from left
+ flex-end: start from left and end from right
+ center
+ space between: width remaing will be between element
+ space around: width remaing will be before and after element 
+ space-evenly: combined space between and space around
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .flex {
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .flex div {
+    background-color: #f00;
+    color: white;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+  }
+  .float {
+    overflow: hidden;
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+  }
+  .float div {
+    background-color: #f00;
+    color: white;
+    float: right;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+  }

@@ -1,0 +1,44 @@
+/*
+  align-self: auto => Default Value 
+  control its self flex-start flex-end center
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .flex {
+    background-color: #eee;
+    width: 800px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    align-items: flex-start;
+  }
+  .flex div {
+    background-color: #f00;
+    color: white;
+    width: 80px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 5px;
+    flex-grow: 1;
+  }
+  img {
+    /*filter: grayscale(100%);/*black white*/
+    /*filter: blur(5px);/*ضباب*/
+    filter: invert(100%);/*nice*/
+  }
+  img:hover {
+    filter: grayscale(0%);
+  }
+.g {
+  background-image: linear-gradient(to right,red,green);
+  width: 400px;
+  height: 200px;
+}
+a {
+  pointer-events: none;
+}

@@ -1,0 +1,28 @@
+/* Padding (internal) لا يقبل قيمة موجبة
+هامش بقدر معينو عندما نضع هامش في الاعلى فأنه يأخد مكان بقدر المعطى 
+لذلك الكلام يذهب قليلا للأسفل 
+عندما نضع هامش في اليسار فان الكلام سيذهب قليلا للايمن لماذا؟ لان الهامش يجب
+ان يأخذ القدر المعطى فلذلك نلاحظ ان الكلام يذهب للأيمن
+عندما نضع كمية منه فالاسفل او بالايسر فان الكلام لايتحرك لانه الكلام في الايمن 
+لذلك اليسار لن يأثر عليه اما فالاسفل فهناك مكان في الاسفل لذلك لن يؤثر عليه
+*/
+/* Margin (external) seperate */
+div{
+    /*هامش*/
+    background-color: rgb(172, 157, 157);
+    /*Top Right Bottom Left*/
+    /*10 10 10 10*/
+    /*padding: 10px;*/
+    /*10 5 10 5*/
+    /*padding: 10px 5px;*/
+    /*1 2 3 2*/
+    /*padding: 1px 2px 3px;*/
+    /*padding: 10px;*/
+    /*padding-left: 10px;*/
+    /* margin:  10px 10px 10px 10px; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*auto: we give width 80% so we have 20% available so auto will
+ take this remaining, left will take 10 right will take 10*/

@@ -1,0 +1,20 @@
+/*
+  CSS Selectors
+  - Element + Other Element => [div + p] it will program the div that have p
+  - Element ~ Other Elements => [p ~ div] program every div after p
+  - [Attribute]
+  - Element[Attribute]
+  - [Attribute=Value]: [title]
+  - Element[Attribute=Value] => input[type="submit"]
+  - [Attribute~=Value] => Contains A Word
+  - [Attribute*=Value] => Contains A String
+  - [Attribute^=Value] => Start With A String
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }

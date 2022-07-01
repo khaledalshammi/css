@@ -1,0 +1,17 @@
+/*
+  CSS Selectors
+  - :first-child
+  - :last-child
+  - :first-of-type: الاول من نوعة
+  - :last-of-type
+  - :only-child: must be alone child
+  - :only-of-type: must have just one of this type
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
